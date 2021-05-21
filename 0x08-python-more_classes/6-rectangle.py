@@ -21,11 +21,13 @@ class Rectangle:
         Rectangle.number_of_instances += 1
 
     def __str__(self):
-        string = "{}".format('\n'.join(['#' * self.__width for row in range(0, self.__height)]))
+        string = "{}".format(
+            '\n'.join(['#' * self.__width for row in range(0, self.__height)]))
         return string
 
     def __repr__(self):
-        return ("Rectangle(" + str(self.__width) + ", " + str(self.__height) +")")
+        return (
+            "Rectangle(" + str(self.__width) + ", " + str(self.__height) + ")")
 
     def __del__(self):
         print("Bye rectangle...")
