@@ -1,5 +1,9 @@
 >>> add_integer = __import__('0-add_integer').add_integer
 
+>>> add_integer(x, 3)
+traceback (most recent call last):
+NameError: name 'x' is not defined
+
 >>> x = [1, 2, 3]
 
 >>> add_integer(x)
