@@ -12,9 +12,9 @@ class Rectangle(BaseGeometry):
         """ initializes a rectangle method and validate
         if its arguments are positive integer """
 
-        self.integer_validator("width", width)
+        super().integer_validator("width", width)
         self.__width = width
-        self.integer_validator("height", height)
+        super().integer_validator("height", height)
         self.__height = height
 
     def area(self):
