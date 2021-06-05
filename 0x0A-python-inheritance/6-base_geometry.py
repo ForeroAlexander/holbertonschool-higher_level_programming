@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""empty class Geometry """
+"""empty class Geometry"""
 
 
-class Geometry:
+class BaseGeometry:
     """class """
 
     def area(self):
