@@ -3,4 +3,4 @@
 class Rectangle {
 }
 
-module.export = Recatangle;
+module.export = Rectangle;
