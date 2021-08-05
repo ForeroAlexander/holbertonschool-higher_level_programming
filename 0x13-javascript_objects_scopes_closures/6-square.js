@@ -1,8 +1,6 @@
-#!usr/bin/node
-
+#!/usr/bin/node
 const oldSquare = require('./5-square');
-
-class Square extends oldSquare {
+module.exports = class Square extends oldSquare {
   charPrint (c) {
     let char = 'X';
     if (c !== undefined) {
@@ -12,6 +10,4 @@ class Square extends oldSquare {
       console.log(char.repeat(this.height));
     }
   }
-}
-
-module.exports = Square;
+};
