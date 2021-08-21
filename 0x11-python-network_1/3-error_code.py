@@ -14,4 +14,4 @@ if __name__ == "__main__":
             utf8 = cont.decode('utf-8')
             print(utf8)
     except HTTPError as status:
-        print("Error code: {}".format(status.code)
+        print("Error code: {}".format(status.code))
